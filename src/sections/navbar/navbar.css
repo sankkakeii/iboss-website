@@ -30,10 +30,7 @@ nav{
 
 /* Styling for the logo within the navigation bar */
 .nav_logo{
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 50%;
-    overflow: hidden;
+    width: 10rem;
 }
 
 /* Styling for the navigation menu within the navigation bar */
@@ -50,7 +47,7 @@ nav{
     font-size: 1rem;
     cursor: pointer;
     display: flex;
-    gap: 3px;
+    gap: 6px;
     justify-content: center;
     align-items: center;
     padding: 1rem;

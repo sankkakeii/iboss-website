@@ -22,7 +22,7 @@ const Portfolio = () => {
   }
 
   return (
-    <section id="portfolio">
+    <section id="our-works">
       <h2>Recent Projects</h2>
       <p>
         Check out some of the projects I recently worked on for my clients. 

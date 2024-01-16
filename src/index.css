@@ -27,7 +27,7 @@
     /* BORDER RADIUS VARIABLES */
     --border-radius-1: 1.2rem;
     --border-radius-2: 0.8rem;
-    --border-radius-3: 0.5rem;
+    --border-radius-3: 5px;
 
     /* GENERAL TRANSITION VARIABLE */
     --transition: all 500ms ease;
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 4.5rem;
 }
 
 h2 {
