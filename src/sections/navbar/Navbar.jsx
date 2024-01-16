@@ -1,7 +1,7 @@
 import './navbar.css'
 import Logo from '../../assets/logo.jpg'
 import data from './data'
-import {IoIosColorPalette} from "react-icons/io";
+import { CiMail } from "react-icons/ci";
 
 const Navbar = () => {
   return (
@@ -23,7 +23,7 @@ const Navbar = () => {
           }
         </ul>
         {/* Theme icon button */}
-        <button id='theme_icon'><IoIosColorPalette /></button>
+        <button id='nav_btn'>Get in Touch<CiMail /></button>
      </div>
       
     </nav>

@@ -9,8 +9,15 @@ nav{
     top: 0;
     left: 0;
     z-index: 9;
-    box-shadow: 0 1rem 1.5rem hsla(var(--primary-hue), 68%, 42%, 20%);
+    box-shadow: 0 1rem 1.5rem hsla(var(--primary-hue), 8%, 3%, 2%);
     transition: var(--transition);
+    /* GlassMorphisims */
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 /* Styling for the container within the navigation bar */
@@ -18,6 +25,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 /* Styling for the logo within the navigation bar */
@@ -36,11 +44,17 @@ nav{
 
 
 /* Styling for the theme icon button within the navigation bar */
-#theme_icon{
-    background: transparent;
+#nav_btn{
+    background: var(--color-primary);
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
     cursor: pointer;
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 0.313rem;
 }
 
 /*HIDE NAV MENU ON TABLET AND PHONES*/
