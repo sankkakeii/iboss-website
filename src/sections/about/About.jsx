@@ -1,7 +1,5 @@
 import "./about.css";
 import Aboutimage from "../../assets/about_image.svg";
-import CV from "../../assets/cv.pdf";
-
 
 /**
  * About component represents a section of a webpage providing information about the creator.
@@ -31,7 +29,7 @@ const About = () => {
             dynamic needs of <br /> businesses across industries.
           </p>
           {/* Read More button */}
-          <a href={CV} download className="btn primary">
+          <a href="" className="btn primary">
             Read More
           </a>
         </div>

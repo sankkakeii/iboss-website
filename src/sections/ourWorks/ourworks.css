@@ -1,0 +1,36 @@
+#ourWorks{
+    background: #F8F8F8;
+}
+
+.top {
+    width:100%;
+    display: flex;
+  }
+  .top_left {
+    width:33%;
+    float:left;
+    margin-bottom: 200px;
+  }
+  .top_right {
+    width:33%;
+    float:right;
+    margin-left: 100px;
+  }
+  .top_right h2{
+    font-size: 36px;
+  }
+
+  .bot {
+    width:100%;
+    display: flex;
+  }
+  .bot_left {
+    width:33%;
+    float:left;
+  }
+
+  .bot_right {
+    width:33%;
+    float:right;
+    margin-left: 200px;
+  }

@@ -2,7 +2,7 @@ import Navbar from "./sections/navbar/Navbar";
 import Header from "./sections/header/Header";
 import About from "./sections/about/About";
 import Services from "./sections/services/Services";
-import Portfolio from "./sections/portfolio/Portfolio";
+import OurWorks from "./sections/ourWorks/Ourworks";
 import Testimonials from "./sections/testimonials/Testimonials";
 import Faqs from "./sections/faqs/Faqs";
 import Contact from "./sections/contact/Contact";
@@ -17,7 +17,7 @@ const App = () => {
       <Header />
       <About />
       <Services />
-      <Portfolio />
+      <OurWorks />
       <Testimonials />
       <Faqs />
       <Contact />
