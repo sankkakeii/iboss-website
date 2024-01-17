@@ -1,6 +1,6 @@
 import "./ourworks.css";
 import TangoWorks from "../../assets/TangoWorks.svg";
-import QikQikWorks from "../../assets/QikQikWorks.svg";
+import QuikQikWorks from "../../assets/QikQikWorks.svg";
 
 const Ourworks = () => {
   return (
@@ -15,10 +15,10 @@ const Ourworks = () => {
             <h2>Tango</h2>
             <p>
               The Tango Project involves the configuration and adaption of different software
-               to seamlessly deliver end-to-end services to
-              users across the e-retail and <br /> logistics environment. 
+              to seamlessly deliver end-to-end services to
+              users across the e-retail and <br /> logistics environment.
             </p>
-            <a href="" className="btn primary">Learn More</a>
+            <a href="/" className="btn primary">Learn More</a>
           </div>
         </div>
         <div className="bot">
@@ -28,10 +28,10 @@ const Ourworks = () => {
               This pioneer payment platform retains our services for providing
               and maintaining integration with third-party applications.
             </p>
-            <a href="" className="btn primary">Learn More</a>
+            <a href="/" className="btn primary">Learn More</a>
           </div>
           <div className="bot_right">
-            <img src={QikQikWorks} alt=""/>
+            <img src={QuikQikWorks} alt="" />
           </div>
         </div>
       </div>

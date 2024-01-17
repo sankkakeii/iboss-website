@@ -29,7 +29,7 @@ const About = () => {
             dynamic needs of <br /> businesses across industries.
           </p>
           {/* Read More button */}
-          <a href="" className="btn primary">
+          <a href="/" className="btn primary">
             Read More
           </a>
         </div>

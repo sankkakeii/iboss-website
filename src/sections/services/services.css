@@ -3,40 +3,56 @@
 } */
 
 /* Styling for the container within the services section */
-.services_container{
+.services_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem 4rem;
 }
 
-h2{
+h2 {
     margin-bottom: 0.8rem;
 }
+
 /* Styling for the service card component */
-.card.service{
+.card.service {
     display: flex;
     align-items: flex-start;
     gap: 1rem;
 }
 
-.yellow-card{
+.yellow-card {
     background-color: #FFF9E6;
+    width: fit-content;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center; */
+
 }
 
-.blue-card{
+.blue-card {
     background-color: #E5F5FF;
+    width: fit-content;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center; */
+
 }
 
-/* Styling for the icon within the service card */
-.service_image{
-    /* background: var(--color-primary);
-    padding: 0.6rem;
-    border-radius: var(--border-radius-3);
-    font-size: 1.5rem;
-    color: var(--color-white);
-    transition: var(--transition); */
- 
+.service_image_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
 }
+
+/* Styling for the images within the service card */
+.service_image {
+    width: 160px;
+    height: auto;
+    padding-top: 20px;
+}
+
 
 /* Styling for the hover effect on the icon within the service card */
 /* .service:hover .service_image{
@@ -45,27 +61,27 @@ h2{
 } */
 
 /* Styling for the heading within the service card */
-.service h4{
+.service h4 {
     margin-bottom: 0.7rem;
 }
 
 
 /* Media Queries Tablets */
-@media screen and (max-width: 1024px){
-    .services_container{
+@media screen and (max-width: 1024px) {
+    .services_container {
         gap: 1.5rem;
     }
 }
 
 /* Media Queries Phones */
-@media screen and (max-width: 600px){
-    .services_container{
+@media screen and (max-width: 600px) {
+    .services_container {
         grid-template-columns: 1fr;
         gap: 1.2rem;
     }
 
-    .card.service{
+    .card.service {
         gap: 1.2rem;
     }
-    
+
 }

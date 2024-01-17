@@ -1,5 +1,9 @@
 #ourprocess{
     padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
 }
 
 .ourprocess_card{
@@ -9,12 +13,26 @@
     padding: 1rem;
 }
 
+.ourprocess_card img{
+    width: 20%;
+    padding-bottom: 1%;
+}
+
+.ourprocess_card h6{
+    padding-top: 10%;
+    color: var(--color-primary);
+    font-size: 1.5rem;
+}
+
 .the_cards{
     border: 1px solid #EFEFEF;
-    border-radius: 20px;
+    border-radius: 4px;
 }
 
 .ourprocess_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -22,5 +40,4 @@
 
 .btn_process{
     margin-top: 1.25rem;
-    margin-left: 53.125rem;
 }

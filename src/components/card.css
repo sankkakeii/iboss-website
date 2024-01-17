@@ -7,19 +7,6 @@
     transition: var(--transition);
 }
 
-/* Styling for the hover effect on the generic card component */
-.card:hover{
-    /* background: transparent;
-    border-color: var(--color-white);
-    transform: translateY(-0.5rem); */
-}
-
-/* Styling for the hover effect on the light variant of the card component */
-.card.light:hover{
-    /* background: transparent;
-    border-color: var(--color-light); */
-}
-
 /* Media Queries Phone*/
 @media screen and (max-width: 600px) {
     .card{

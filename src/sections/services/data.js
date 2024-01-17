@@ -20,7 +20,7 @@ const data = [
     title: "Mobile App Development",
     desc: "We empower businesses with tailored strategies and innovative solutions in consulting & management",
     cardish: "yellow-card"
-                        
+
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const data = [
     title: "Cloud/DevOps",
     desc: "We maximize cloud platforms for uninterrupted product evolution, testing,  and deployment.",
     cardish: "blue-card"
-  
+
   },
 ];
 

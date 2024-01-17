@@ -6,6 +6,7 @@ import Develop from "../../assets/Develop.svg"
 import Deploy from "../../assets/Deploy.svg"
 
 const Ourprocess = () => {
+
   return (
     <section id="ourprocess">
       <div className="container ourprocess_container">
@@ -26,7 +27,7 @@ const Ourprocess = () => {
         </div>
         <div className="the_cards">
           <Card>
-            <img src={Design} alt="" />
+            <img src={Design} alt="" className="ourprocess_card_img" />
             <h6>Design</h6>
             <p>
               Our design strategy flows from discovery through a user-focused
@@ -59,7 +60,7 @@ const Ourprocess = () => {
         </div>
       </div>
       <div className="btn_process">
-        <a href="" className="btn primary">
+        <a href="/" className="btn primary">
           Schedule a Call
         </a>
       </div>
