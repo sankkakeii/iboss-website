@@ -31,7 +31,7 @@ const Ourworks = () => {
             <a href="" className="btn primary">Learn More</a>
           </div>
           <div className="bot_right">
-            <img src={QikQikWorks} alt="" />
+            <img src={QikQikWorks} alt=""/>
           </div>
         </div>
       </div>

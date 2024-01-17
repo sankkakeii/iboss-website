@@ -1,5 +1,10 @@
 #ourWorks{
     background: #F8F8F8;
+    padding-top: 3.75rem;
+}
+
+#ourWorks h2{
+  padding-bottom: 2.5rem;
 }
 
 .top {
@@ -9,15 +14,15 @@
   .top_left {
     width:33%;
     float:left;
-    margin-bottom: 200px;
+    margin-bottom: 12.5rem;
   }
   .top_right {
     width:33%;
     float:right;
-    margin-left: 100px;
+    margin-left: 6.25rem;
   }
   .top_right h2{
-    font-size: 36px;
+    font-size: 2.25rem;
   }
 
   .bot {
@@ -32,5 +37,5 @@
   .bot_right {
     width:33%;
     float:right;
-    margin-left: 200px;
+    margin-left: 12.5rem;
   }

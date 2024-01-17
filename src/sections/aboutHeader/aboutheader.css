@@ -1,0 +1,13 @@
+#about_header {
+    background: #FFFFFF;
+    border: 1px solid;
+}
+
+.about_header_content h1 {
+    text-align: center;
+}
+
+.about_header_content p {
+    text-align: center;
+    padding: 20px;
+}

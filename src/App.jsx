@@ -7,7 +7,8 @@ import Ourprocess from "./sections/ourProcess/Ourprocess";
 import Faqs from "./sections/faqs/Faqs";
 import Contact from "./sections/contact/Contact";
 import Footer from './sections/footer/Footer';
-import FloatingNav from './sections/floating-nav/FloatingNav';
+import AboutHeader from './sections/aboutHeader/AboutHeader';
+import Ourvision from "./sections/ourVision/Ourvision";
 
 
 const App = () => {
@@ -21,8 +22,9 @@ const App = () => {
       <Ourprocess />
       <Faqs />
       <Contact />
+      <AboutHeader/>
+      <Ourvision />
       <Footer/>
-      <FloatingNav/>
     </main>
   );
 };

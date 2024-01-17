@@ -22,7 +22,7 @@ const Header = () => {
           <img src={lightningBot} alt="" />
         </div>
         <div className="header_content">
-          {/* Personal information section */}
+          {/* information section */}
           <h1>
             Empower your Business with enhanced real <br /> world solutions
           </h1>
@@ -41,7 +41,7 @@ const Header = () => {
           </div>
         </div>
 
-        {/* Profile image section */}
+        {/* Header image section */}
         <div className="header_profile">
           <img src={HeaderImage} alt="Header Potrait" />
         </div>
