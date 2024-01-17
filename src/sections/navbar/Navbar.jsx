@@ -23,7 +23,7 @@ const Navbar = () => {
           }
         </ul>
         {/* Nav icon button */}
-        <a href="#contact" id='nav_btn'>Get in Touch<CiMail style={{ fontSize: '1.4em' }}/></a>
+        <a href="#contact" id='nav_btn' className='btn primary'>Get in Touch<CiMail style={{ fontSize: '1.4em' }}/></a>
      </div>
       
     </nav>

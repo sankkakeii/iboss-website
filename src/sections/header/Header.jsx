@@ -35,7 +35,7 @@ const Header = () => {
 
           {/* Call-to-action buttons section */}
           <div className="header_cta">
-            <a href="#contact" className="header-btn">
+            <a href="#contact" className="btn primary header-btn">
               {" "}
               Get in touch with us
             </a>

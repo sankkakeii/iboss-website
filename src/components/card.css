@@ -1,6 +1,6 @@
 /* Styling for the generic card component */
 .card{
-    background: var(--color-white);
+    /* background: var(--color-white); */
     padding: 1.5rem;
     border: 2px solid transparent;
     border-radius: var(--border-radius-1);
@@ -9,20 +9,15 @@
 
 /* Styling for the hover effect on the generic card component */
 .card:hover{
-    background: transparent;
+    /* background: transparent;
     border-color: var(--color-white);
-    transform: translateY(-0.5rem);
-}
-
-/* Styling for the light variant of the card component */
-.card.light{
-    background: var(--color-light);
+    transform: translateY(-0.5rem); */
 }
 
 /* Styling for the hover effect on the light variant of the card component */
 .card.light:hover{
-    background: transparent;
-    border-color: var(--color-light);
+    /* background: transparent;
+    border-color: var(--color-light); */
 }
 
 /* Media Queries Phone*/

@@ -5,6 +5,9 @@
     gap: 2rem 4rem;
 }
 
+h2{
+    margin-bottom: 0.8rem;
+}
 /* Styling for the service card component */
 .card.service{
     display: flex;
@@ -12,21 +15,31 @@
     gap: 1rem;
 }
 
+.yellow-card{
+    background-color: #FFF9E6;
+}
+
+.blue-card{
+    background-color: #E5F5FF;
+}
+
 /* Styling for the icon within the service card */
-.service_icon{
-    background: var(--color-primary);
+.service_image{
+    /* background: var(--color-primary);
     padding: 0.6rem;
     border-radius: var(--border-radius-3);
     font-size: 1.5rem;
     color: var(--color-white);
-    transition: var(--transition);
+    transition: var(--transition); */
+    bottom: 1px;
+    right: 1px;
 }
 
 /* Styling for the hover effect on the icon within the service card */
-.service:hover .service_icon{
+/* .service:hover .service_image{
     background: var(--color-light);
     color: var(--color-primary);
-}
+} */
 
 /* Styling for the heading within the service card */
 .service h4{

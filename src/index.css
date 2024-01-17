@@ -127,7 +127,7 @@ img {
     color: var(--color-black);
     padding: 0.6rem 2.5rem;
     border: 2px solid transparent;
-    border-radius: var(--border-radius-2);
+    border-radius: 0.25rem;
     cursor: pointer;
 }
 

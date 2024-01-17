@@ -1,23 +1,44 @@
-import {SiAdobexd} from 'react-icons/si'
-import {RiReactjsLine} from 'react-icons/ri'
-import {FaServer} from 'react-icons/fa'
-import {AiFillAppstore} from 'react-icons/ai'
+import devOps from '../../assets/devOps.svg'
+import mobileApp from '../../assets/mobileApp.svg'
+import productDesign from '../../assets/productDesign.svg'
+import softwareDev from '../../assets/softwareDev.svg'
 
 
 const data = [
-    {
-        id: 1, icon: <SiAdobexd/>, title: 'UI/UX Design', desc: "My designs are modern and intuitive. I use industry-standard rules to make sure your users have fun using your product."
-    },
-    {
-        id: 2, icon: <RiReactjsLine/>, title: 'Frontend Development', desc: "Your product will look good and will be accessible on all devices, including mobile phones, tablets, and desktop."
-    },
-    {
-        id: 3, icon: <FaServer/>, title: 'Backend Development', desc: "The security of your business/product is taken seriously right from the start of the project. I will make sure your website/app is secure from attacks."
-    },
-    {
-        id: 4, icon: <AiFillAppstore/>, title: 'App Development', desc: 'Unlike other developers in the market, I will building an app that runs on both IOS and Android devices without any extra cost to you.'
-    }
-]
+  {
+    id: 1,
+    image: [softwareDev],
+    title: "Software Development",
+    desc: "We prioritize reducing complex processes to straightforward software and apps",
+    cardish: "blue-card"
+
+
+  },
+  {
+    id: 2,
+    image: [mobileApp],
+    title: "Mobile App Development",
+    desc: "We empower businesses with tailored strategies and innovative solutions in consulting & management",
+    cardish: "yellow-card"
+                        
+  },
+  {
+    id: 3,
+    image: [productDesign],
+    title: "Digital Product Design",
+    desc: "We produce personalized UX/UI, brand identity, and illustrations, icons ,embodying the entire visual representation of your product.",
+    cardish: "yellow-card"
+
+  },
+  {
+    id: 4,
+    image: [devOps],
+    title: "Cloud/DevOps",
+    desc: "We maximize cloud platforms for uninterrupted product evolution, testing,  and deployment.",
+    cardish: "blue-card"
+  
+  },
+];
 
 
 export default data

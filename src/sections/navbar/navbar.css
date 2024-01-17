@@ -47,10 +47,9 @@ nav{
     font-size: 1rem;
     cursor: pointer;
     display: flex;
-    gap: 6px;
+    gap: 4px;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
     border-radius: 0.313rem;
 }
 
