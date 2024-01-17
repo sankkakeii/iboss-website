@@ -1,0 +1,26 @@
+#ourprocess{
+    padding-bottom: 60px;
+}
+
+.ourprocess_card{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.the_cards{
+    border: 1px solid #EFEFEF;
+    border-radius: 20px;
+}
+
+.ourprocess_container{
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn_process{
+    margin-top: 1.25rem;
+    margin-left: 53.125rem;
+}

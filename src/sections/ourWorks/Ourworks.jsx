@@ -1,6 +1,6 @@
 import "./ourworks.css";
 import TangoWorks from "../../assets/TangoWorks.svg";
-import QikQikWorks from "../../assets/QikQIkWorks.svg";
+import QikQikWorks from "../../assets/QikQikWorks.svg";
 
 const Ourworks = () => {
   return (
@@ -26,7 +26,7 @@ const Ourworks = () => {
             <h2>QikQik</h2>
             <p>
               This pioneer payment platform retains our services for providing
-              and maintaining integration with third-party applications
+              and maintaining integration with third-party applications.
             </p>
             <a href="" className="btn primary">Learn More</a>
           </div>
