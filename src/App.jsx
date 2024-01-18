@@ -9,6 +9,7 @@ import Contact from "./sections/contact/Contact";
 import Footer from './sections/footer/Footer';
 import AboutHeader from './sections/aboutheader/AboutHeader';
 import Ourvision from "./sections/ourvision/Ourvision";
+import Partners from "./components/Partners/Partners";
 import Wework from "./sections/wework/Wework";
 
 
@@ -20,6 +21,7 @@ const App = () => {
       <About />
       <Services />
       <OurWorks />
+      <Partners />
       <Ourprocess />
       <Faqs />
       <Contact />
