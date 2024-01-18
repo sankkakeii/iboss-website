@@ -25,10 +25,10 @@ const App = () => {
       <Ourprocess />
       <Faqs />
       <Contact />
-      <Wework/>
-      <AboutHeader/>
-      <Ourvision />
-      <Footer/>
+      <Wework />
+      {/* <AboutHeader /> */}
+      {/* <Ourvision /> */}
+      <Footer />
     </main>
   );
 };

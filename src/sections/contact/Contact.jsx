@@ -1,8 +1,12 @@
-import './contact.css'
+import './contact.css';
+import ContactComponent from '../../components/Contact/ContactComponent';
+
 
 const Contact = () => {
   return (
-    <section id="contact"><h2>contact</h2></section>
+    <section id="contact_section">
+      <ContactComponent />
+    </section>
   )
 }
 
