@@ -19,8 +19,8 @@ const Ourprocess = () => {
             <img src={Discover} alt="" />
             <h6>Discover</h6>
             <p>
-              We start with a discussion with you so we can structure team,
-              approach, success metrics, timescale, budget and delegate required
+              We start with a discussion with you so we <br /> can structure team,
+              approach, success <br /> metrics, timescale, budget and delegate <br /> required
               skill sets to the task
             </p>
           </Card>
@@ -30,8 +30,8 @@ const Ourprocess = () => {
             <img src={Design} alt="" className="ourprocess_card_img" />
             <h6>Design</h6>
             <p>
-              Our design strategy flows from discovery through a user-focused
-              mind-map to create a total end-to-end deeply satisfying
+              Our design strategy flows from discovery <br /> through a user-focused
+              mind-map <br /> to create a total end-to-end deeply <br /> satisfying
               experience.
             </p>
           </Card>
@@ -41,8 +41,8 @@ const Ourprocess = () => {
             <img src={Develop} alt="" />
             <h6>Develop</h6>
             <p>
-              Our team of developers consider such issues as protocols,
-              compatibility, user accessibility and security to code with
+              Our team of developers consider such <br /> issues as protocols,
+              compatibility, <br /> user accessibility and security to code with <br />
               precision and functionality
             </p>
           </Card>
@@ -52,8 +52,8 @@ const Ourprocess = () => {
             <img src={Deploy} alt="" />
             <h6>Deploy</h6>
             <p>
-              The end goal is to put a software or an app in the hand of the
-              user, while yet gathering user feedback for post deployment
+              The end goal is to put a software or an <br /> app in the hand of the
+              user, while yet <br /> gathering user feedback for post <br /> deployment
               upgrades
             </p>
           </Card>

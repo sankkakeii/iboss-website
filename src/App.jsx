@@ -9,6 +9,7 @@ import Contact from "./sections/contact/Contact";
 import Footer from './sections/footer/Footer';
 import AboutHeader from './sections/aboutheader/AboutHeader';
 import Ourvision from "./sections/ourvision/Ourvision";
+import Wework from "./sections/wework/Wework";
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
       <Ourprocess />
       <Faqs />
       <Contact />
+      <Wework/>
       <AboutHeader/>
       <Ourvision />
       <Footer/>
