@@ -2,6 +2,10 @@
     background: #FFFCF5;
     padding-top: 6rem;
     padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
 }
 
 .wework_container{
