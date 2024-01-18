@@ -1,0 +1,17 @@
+#partners {
+    background: #E5F5FF;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners_container {
+    display: flex;
+    width: 100%;
+    justify-self: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
