@@ -1,0 +1,27 @@
+#wework{
+    background: #FFFCF5;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+.wework_container{
+    display: flex;
+    gap: 2.8rem;
+    width: 100%;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.wework_image{
+    width: 20%;
+    padding-bottom: 1%;
+}
+
+.wework_container p{
+    font-size: 1rem;
+}
+
+.wework_container h4{
+    margin-top: 1rem;
+    margin-bottom: 0.46rem;
+}

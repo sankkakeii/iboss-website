@@ -27,7 +27,9 @@ const Services = () => {
               </div>
               <div className="service_image_container">
                 {/* Service image */}
-                <div className="service_image"><img src={item.image} alt="" /></div>
+                <div className="service_image">
+                  <img src={item.image} alt="" />
+                </div>
               </div>
             </Card>
           ))

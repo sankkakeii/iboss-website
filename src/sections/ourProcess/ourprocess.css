@@ -6,6 +6,23 @@
     align-items: center;
 }
 
+
+#ourprocess h5 {
+    font-weight: 500;
+}
+
+
+.ourprocess_container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+
 .ourprocess_card{
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -24,17 +41,14 @@
     font-size: 1.5rem;
 }
 
-.the_cards{
-    border: 1px solid #EFEFEF;
-    border-radius: 4px;
+.ourprocess_card p{
+    font-size: 0.8rem;
+    padding-top: 0.25rem;
 }
 
-.ourprocess_container{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.the_cards{
+    border: 1px solid #EFEFEF;
+    border-radius: 6px;
 }
 
 
