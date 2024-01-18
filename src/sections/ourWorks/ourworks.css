@@ -1,6 +1,5 @@
 #ourWorks{
     background: #F8F8F8;
-    padding-top: 3.75rem;
 }
 
 .ourworks_container{
@@ -10,41 +9,44 @@
     justify-self: center;
     align-items: center;
     justify-content: center;
-    padding: 3rem;
+    padding: 1rem;
 }
 
 #ourWorks h2{
-  padding-bottom: 2.5rem;
+  font-size: 2.7rem;
 }
 
+#ourWorks p{
+  font-size: 1.7rem;
+  padding-bottom: 2%;
+}
 
 
 .top {
     width:100%;
     display: flex;
-    justify-content: space-evenly;
+    gap: 3rem;
     align-items: center;
     margin-bottom: 4rem;
   }
   .top_left {
-    width:33%;
+    width:50%;
   }
   .top_right {
-    width:33%;
+    width:50%;
   }
-  .top_right h2{
-    font-size: 2.25rem;
-  }
+
 
   .bot {
     width:100%;
     display: flex;
-    justify-content: center;
+    gap: 3rem;
+    align-items: center;
   }
   .bot_left {
-    width:33%;
+    width:50%;
   }
 
   .bot_right {
-    width:33%;
+    width:50%;
   }

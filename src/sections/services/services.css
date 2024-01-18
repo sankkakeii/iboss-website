@@ -22,12 +22,12 @@ h2 {
 
 .yellow-card {
     background-color: #FFF9E6;
-    width: fit-content;
+    width: 100%;
 }
 
 .blue-card {
     background-color: #E5F5FF;
-    width: fit-content;
+    width: 100%;
 }
 
 
@@ -43,7 +43,6 @@ h2 {
 .service_image {
     width: 160px;
     height: auto;
-    
 }
 
 /* Styling for the heading within the service card */
