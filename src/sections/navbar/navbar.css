@@ -11,6 +11,7 @@ nav{
     z-index: 9;
     box-shadow: 0 1rem 1.5rem hsla(var(--primary-hue), 8%, 3%, 2%);
     transition: var(--transition);
+
     /* Glassmorphism */
     background: rgba(255, 255, 255, 0.6);
     box-shadow: 0 2px 2px 0 rgba(136, 140, 181, 0.37);
@@ -23,6 +24,11 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.nav_container a:hover{
+    color: var(--color-primary);
+    font-weight: 400;
 }
 
 /* Styling for the logo within the navigation bar */

@@ -19,7 +19,7 @@ const Services = () => {
         {
           // Mapping through the data array to generate service cards using the Card component
           data.map((item) => (
-            <Card key={item.id} className={`light ${item.cardish}`}>
+            <Card key={item.id} className={`${item.cardish}`}>
               {/* Service details */}
               <div className="service_details">
                 <h4>{item.title}</h4>

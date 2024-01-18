@@ -1,7 +1,7 @@
 import devOps from '../../assets/devOps.svg'
 import mobileApp from '../../assets/mobileApp.svg'
 import productDesign from '../../assets/productDesign.svg'
-import softwareDev from '../../assets/softwareDev.svg'
+import softwareDev from '../../assets/software-dev.svg'
 
 
 const data = [
@@ -9,8 +9,8 @@ const data = [
     id: 1,
     image: [softwareDev],
     title: "Software Development",
-    desc: "We prioritize reducing complex processes to straightforward software and apps",
-    cardish: "blue-card"
+    desc: "We prioritize reducing complex processes to develop straight forward software and applications",
+    cardish: "bug blue-card"
 
 
   },

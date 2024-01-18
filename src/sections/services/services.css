@@ -23,42 +23,28 @@ h2 {
 .yellow-card {
     background-color: #FFF9E6;
     width: fit-content;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center; */
-
 }
 
 .blue-card {
     background-color: #E5F5FF;
     width: fit-content;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center; */
-
 }
+
 
 .service_image_container {
     width: 100%;
     display: flex;
     flex-direction: row-reverse;
+    align-items: flex-end;
+    /* padding-top: 10%; */
 }
 
 /* Styling for the images within the service card */
 .service_image {
     width: 160px;
     height: auto;
-    padding-top: 20px;
+    
 }
-
-
-/* Styling for the hover effect on the icon within the service card */
-/* .service:hover .service_image{
-    background: var(--color-light);
-    color: var(--color-primary);
-} */
 
 /* Styling for the heading within the service card */
 .service h4 {
