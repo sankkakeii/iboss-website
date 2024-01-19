@@ -2,10 +2,11 @@
     background: #FFFFFF;
 }
 
-.footer_image{
+/* .footer_image{
     width: 50%;
     height: 100%;
-}
+    margin-bottom: 100px;
+} */
 
  .footer_container {
     display: flex;
@@ -24,24 +25,33 @@
 
   .footer_container p{
     font-size: smaller;
-  }l
-
-  .footer_container h4{
-    margin-bottom: 10px;
   }
 
-h4{
+  .footer_container h5{
+    margin-bottom: 10px;
+    
+  }
+
+h5{
   padding-bottom: 10px;
   justify-content: space-between;
+ 
 }
 
 .footer_container .our_services{
-    margin-top:40px;
+    margin-bottom:200px;
     margin-right: 100px;
 }
 
 .footer_container .company{
   margin-left: 100px;
+  margin-bottom:220px;
+
+}
+
+.footer_container .get_in_touch{
+  margin-bottom:190px;
+
 }
 
   .get_in_touch span{
