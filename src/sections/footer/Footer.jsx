@@ -1,5 +1,8 @@
 import "./footer.css";
 import footerImage from "../../assets/footer/iboss_footer_logo.svg";
+import twitter from "../../assets/footer/footer_twitter.svg"
+import linkedin from "../../assets/footer/footer_linkedin.svg"
+import instagram from "../../assets/footer/footer_Ellipse 11.svg"
 
 const Footer = () => {
   return (
@@ -48,6 +51,9 @@ const Footer = () => {
           </span>
         </p>
         <h5>Follow us on:</h5>
+        <img src={twitter} alt="" />
+        <img src={linkedin} alt="" />
+        <img src={instagram} alt="" />
       </div>
     </footer>
   );
