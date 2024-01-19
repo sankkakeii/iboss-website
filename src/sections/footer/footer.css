@@ -1,0 +1,27 @@
+#footer{
+    background: #FFFFFF;
+}
+
+.logo{
+    width: 20%;
+    padding-bottom: 1%;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-evenly; /* Adjust as needed */
+    align-items: center;
+    padding: 20px; /* Adjust the padding for the entire container */
+  }
+  
+  .footer_container > div {
+    flex: 1;
+    margin: 0 10px; /* Adjust the margin for spacing between divs */
+    padding: 20px; /* Adjust the padding for each div */
+    box-sizing: border-box; /* Include padding in the total width/height */
+    border: 1px transparent #ddd; /* Optional: Add a border for visual separation */
+  }
+
+  .get_in_touch span{
+    color: #87CEEB;
+  }
