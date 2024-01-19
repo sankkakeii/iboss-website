@@ -1,4 +1,4 @@
-#ourprocess{
+#ourprocess {
     padding-bottom: 60px;
     display: flex;
     flex-direction: column;
@@ -7,13 +7,11 @@
     background: #FFFFFF;
 }
 
-
 #ourprocess h5 {
     font-weight: 500;
 }
 
-
-.ourprocess_container{
+.ourprocess_container {
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -23,36 +21,55 @@
     padding: 1rem;
 }
 
-
-.ourprocess_card{
+.ourprocess_card {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 1fr;
     gap: 2rem;
     padding: 1rem;
 }
 
-.ourprocess_card img{
-    width: 20%;
+/* Media Queries Tablets */
+@media screen and (min-width: 601px) {
+    .ourprocess_card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Media Queries Desktops */
+@media screen and (min-width: 1025px) {
+    .ourprocess_card {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.ourprocess_card img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
     padding-bottom: 1%;
 }
 
-.ourprocess_card h6{
-    padding-top: 10%;
-    color: var(--color-primary);
-    font-size: 1.5rem;
+/* Media Queries for Smaller Screens (e.g., Phones) */
+@media screen and (max-width: 600px) {
+    .ourprocess_card img {
+        width: 60%; /* Adjust the percentage as needed */
+    }
+
+    .ourprocess_card h6 {
+        font-size: 1.2rem;
+    }
+
+    .ourprocess_card p {
+        font-size: 0.7rem;
+    }
 }
 
-.ourprocess_card p{
-    font-size: 0.8rem;
-    padding-top: 0.25rem;
-}
-
-.the_cards{
+.the_cards {
     border: 1px solid #EFEFEF;
     border-radius: 6px;
+    padding: 1rem;
 }
 
-
-.btn_process{
+.btn_process {
     margin-top: 1.25rem;
 }

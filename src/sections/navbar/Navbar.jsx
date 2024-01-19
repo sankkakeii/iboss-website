@@ -6,13 +6,13 @@ import { CiMail } from "react-icons/ci";
 const Navbar = () => {
   return (
     <nav>
-      
+
       {/* Container for the navigation elements */}
       <div className="container nav_container">
 
         {/* Logo section */}
         <a href="index.html" className='nav_logo'>
-          <img src={Logo}alt="Logo" />
+          <img src={Logo} alt="Logo" />
         </a>
 
         {/* Navigation menu section */}
@@ -23,9 +23,9 @@ const Navbar = () => {
           }
         </ul>
         {/* Nav icon button */}
-        <a href="#contact" id='nav_btn' className='btn primary'>Get in Touch<CiMail style={{ fontSize: '1.4em' }}/></a>
-     </div>
-      
+        <a href="#contact" id='nav_btn' className='btn primary'>Get in Touch<CiMail style={{ fontSize: '1.4em' }} /></a>
+      </div>
+
     </nav>
   )
 }

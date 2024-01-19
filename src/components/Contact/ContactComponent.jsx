@@ -8,10 +8,12 @@ const ContactComponent = () => {
     return (
         <section id="our_contact">
             <h2>Let's Talk About That Idea You Have</h2>
-            <div className="contact_info_container">
+            <div className="container contact_info_container">
                 <div className="contact_information">
                     <div className="contact_info_item">
-                        <img className="contact_info_item_img" src={Visit} alt="" />
+                        <div className="icon_container">
+                            <img className="contact_info_item_img" src={Visit} alt="" />
+                        </div>
                         <div>
                             <h6>Visit us</h6>
                             <p>
@@ -22,7 +24,9 @@ const ContactComponent = () => {
                     </div>
 
                     <div className="contact_info_item">
-                        <img className="contact_info_item_img" src={Email} alt="" />
+                        <div className="icon_container">
+                            <img className="contact_info_item_img" src={Email} alt="" />
+                        </div>
                         <div>
                             <h6>Email</h6>
                             <p>info@iboss.com</p>
@@ -30,10 +34,21 @@ const ContactComponent = () => {
                     </div>
 
                     <div className="contact_info_item">
-                        <img className="contact_info_item_img" src={Phone} alt="" />
+                        <div className="icon_container">
+                            <img className="contact_info_item_img" src={Phone} alt="" />
+                        </div>
                         <div>
                             <h6>Call</h6>
                             <p>+234 916 155 4000, +234 916 166 4000</p>
+                        </div>
+                    </div>
+
+                    <div className="contact_info_item">
+                        <div>
+                            <h6>Request A Quote</h6>
+                            Want to do business with us? Send a request for
+                            Proposal and we will respond within five
+                            business days.
                         </div>
                     </div>
                 </div>

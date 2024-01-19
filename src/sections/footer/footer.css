@@ -1,51 +1,75 @@
-#footer{
-    background: #FFFFFF;
+#footer {
+  background: #FFFFFF;
+  padding: 20px 0; /* Added padding for better spacing */
 }
 
-.footer_image{
-    width: 50%;
-    height: 100%;
+.footer_image {
+  width: 100%;
+  max-width: 400px; /* Adjust the maximum width for responsiveness */
+  margin: 0 auto; /* Center the image */
 }
 
- .footer_container {
-    display: flex;
-    justify-content: space-evenly; 
-    align-items: center;
-    padding: 0;
-  }
+.footer_container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+  justify-content: space-evenly;
+  align-items: center;
+}
 
-.footer_container > div{
+.footer_container > div {
   flex: 1;
-  margin: 0 10px;
+  margin: 10px;
   padding: 20px;
   box-sizing: border-box;
-  /* border: 1px solid; */
 }
 
-  .footer_container p{
-    font-size: smaller;
-  }l
+.footer_container p {
+  font-size: smaller;
+}
 
-  .footer_container h4{
-    margin-bottom: 10px;
-  }
+.footer_container h4 {
+  margin-bottom: 10px;
+}
 
-h4{
+h4 {
   padding-bottom: 10px;
-  justify-content: space-between;
 }
 
-.footer_container .our_services{
-    margin-top:40px;
-    margin-right: 100px;
+.footer_container .our_services,
+.footer_container .company,
+.footer_container .get_in_touch {
+  width: 100%; /* Full width on smaller screens */
+  margin-top: 20px; /* Adjusted margin for better spacing */
 }
 
-.footer_container .company{
-  margin-left: 100px;
+.footer_container .our_services {
+  margin-right: 0;
 }
 
-  .get_in_touch span{
-    color: #87CEEB;
-    padding: 0.2rem;
+.footer_container .company {
+  margin-left: 0;
+}
+
+.get_in_touch span {
+  color: #87CEEB;
+  padding: 0.2rem;
+}
+
+/* Media Queries Tablets */
+@media screen and (max-width: 768px) {
+  .footer_container > div {
+      flex-basis: 100%; /* Make each div take full width on tablets */
+      margin: 10px 0; /* Adjusted margin for better spacing */
   }
 
+  .footer_container .get_in_touch {
+      order: 4; /* Reorder Get in touch section for better flow */
+  }
+}
+
+/* Media Queries Phones */
+@media screen and (max-width: 480px) {
+  .footer_image {
+      max-width: 100%; /* Make the image take full width on phones */
+  }
+}

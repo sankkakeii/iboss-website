@@ -18,7 +18,9 @@ const Ourworks = () => {
               to seamlessly deliver end-to-end services to
               users across the e-retail and <br /> logistics environment.
             </p>
-            <a href="/" className="btn primary">Learn More</a>
+            <a href="/" className="btn primary">
+              Learn More
+            </a>
           </div>
         </div>
         <div className="bot">
@@ -28,7 +30,9 @@ const Ourworks = () => {
               This pioneer payment platform retains our services for providing
               and maintaining integration with third-party applications.
             </p>
-            <a href="/" className="btn primary">Learn More</a>
+            <a href="/" className="btn primary">
+              Learn More
+            </a>
           </div>
           <div className="bot_right">
             <img src={QuikQikWorks} alt="" />
@@ -40,3 +44,4 @@ const Ourworks = () => {
 };
 
 export default Ourworks;
+
