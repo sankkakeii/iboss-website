@@ -29,6 +29,10 @@ const App = () => {
       {/* <AboutHeader/>
       <Ourvision /> */}
       <Footer/>
+      <Wework />
+      {/* <AboutHeader /> */}
+      {/* <Ourvision /> */}
+      <Footer />
     </main>
   );
 };
