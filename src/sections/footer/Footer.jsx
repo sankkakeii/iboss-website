@@ -1,10 +1,11 @@
 import "./footer.css";
 import footerImage from "../../assets/footer/iboss_footer_logo.svg";
+import Card from "../../components/Card";
 
 const Footer = () => {
   return (
     <footer id="footer" className="container footer_container">
-      <div className="logo">
+      <div className="footer_image">
         <img src={footerImage} alt="" />
         <p>
           Consistent pursuit of innovation, excellence, and value through
@@ -13,22 +14,25 @@ const Footer = () => {
           optimization, revenue assurance, and sustainable growth.
         </p>
       </div>
+
       <div className="company">
-        <h3>Company</h3>
+        <h4>Company</h4>
         <p>About Us</p>
         <p>Our works</p>
         <p>Blog</p>
       </div>
+
       <div className="our_services">
-        <h3>Our Services</h3>
+        <h4>Our Services</h4>
         <p>Software Development</p>
         <p>Digital Product Design</p>
         <p>Consulting and Management</p>
         <p>Cloud/Devops</p>
         <p>Marketing</p>
       </div>
+
       <div className="get_in_touch">
-        <h3>Get in touch</h3>
+        <h4>Get in touch</h4>
         <p>
           Call: <span>Filler data</span>
         </p>

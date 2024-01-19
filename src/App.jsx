@@ -23,15 +23,11 @@ const App = () => {
       <OurWorks />
       <Partners />
       <Ourprocess />
-      <Faqs />
+      {/* <Faqs /> */}
       <Wework/>
       <Contact />
       {/* <AboutHeader/>
       <Ourvision /> */}
-      <Footer/>
-      <Wework />
-      {/* <AboutHeader /> */}
-      {/* <Ourvision /> */}
       <Footer />
     </main>
   );
