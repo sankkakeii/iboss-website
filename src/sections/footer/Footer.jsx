@@ -1,6 +1,8 @@
 import "./footer.css";
 import footerImage from "../../assets/footer/iboss_footer_logo.svg";
-import Card from "../../components/Card";
+import twitter from "../../assets/footer/footer_twitter.svg"
+import linkedin from "../../assets/footer/footer_linkedin.svg"
+import instagram from "../../assets/footer/footer_Ellipse 11.svg"
 
 const Footer = () => {
   return (
@@ -16,14 +18,14 @@ const Footer = () => {
       </div>
 
       <div className="company">
-        <h4>Company</h4>
+        <h5>Company</h5>
         <p>About Us</p>
         <p>Our works</p>
         <p>Blog</p>
       </div>
 
       <div className="our_services">
-        <h4>Our Services</h4>
+        <h5>Our Services</h5>
         <p>Software Development</p>
         <p>Digital Product Design</p>
         <p>Consulting and Management</p>
@@ -32,18 +34,26 @@ const Footer = () => {
       </div>
 
       <div className="get_in_touch">
-        <h4>Get in touch</h4>
+        <h5>Get in touch</h5>
         <p>
-          Call: <span>Filler data</span>
+          Call: <span>+234 916 155 4000, +234 916 166 4000</span>
         </p>
         <p>
           {" "}
-          Email: <span>Filler data</span>
+          Email: <span>info@iboss.com</span>
         </p>
         <p>
           {" "}
-          Address: <span>Filler data</span>
+          Address:{" "}
+          <span>
+            173 Ogudu Road After Ogudu City Mall Opposite St Andrews Anglican
+            Church Ogudu Lagos
+          </span>
         </p>
+        <h5>Follow us on:</h5>
+        <img src={twitter} alt="" />
+        <img src={linkedin} alt="" />
+        <img src={instagram} alt="" />
       </div>
     </footer>
   );
