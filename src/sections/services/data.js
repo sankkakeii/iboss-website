@@ -1,7 +1,7 @@
-import devOps from '../../assets/devOps.svg'
-import mobileApp from '../../assets/mobileApp.svg'
-import productDesign from '../../assets/productDesign.svg'
-import softwareDev from '../../assets/software-dev.svg'
+import devOps from '../../assets/services/dev-ops.svg'
+import mobileApp from '../../assets/services/mobile-app.svg'
+import productDesign from '../../assets/services/product-design.svg'
+import softwareDev from '../../assets/services/software-dev.svg'
 
 
 const data = [

@@ -1,7 +1,7 @@
 import "./header.css";
-import HeaderImage from "../../assets/banner-image.svg";
-import lightningTop from "../../assets/lightning-top.svg";
-import lightningBot from "../../assets/lightning-bot.svg";
+import HeaderImage from "../../assets/header/banner-image.svg";
+import lightningTop from "../../assets/header/lightning-top.svg";
+import lightningBot from "../../assets/header/lightning-bot.svg";
 // import backgroungImage from "../../assets/banner-background.svg"
 
 /**

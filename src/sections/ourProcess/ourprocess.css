@@ -7,8 +7,13 @@
     background: #FFFFFF;
 }
 
-#ourprocess h5 {
+#ourprocess h6 {
     font-weight: 500;
+    padding-bottom: 10px;
+}
+
+#ourprocess h4{
+    font-weight: 400;
 }
 
 .ourprocess_container {
@@ -24,29 +29,29 @@
 .ourprocess_card {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 1.6rem;
+    padding: 1rem;
+} 
+
+.ourprocess_card img {
+    width: 20%;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 10%;
+}
+
+.the_cards {
+    border: 1px solid #EFEFEF;
+    border-radius: 6px;
     padding: 1rem;
 }
 
-/* Media Queries Tablets */
-@media screen and (min-width: 601px) {
-    .ourprocess_card {
-        grid-template-columns: repeat(2, 1fr);
-    }
+.the_cards h6{
+    color: #005B96;
 }
 
-/* Media Queries Desktops */
-@media screen and (min-width: 1025px) {
-    .ourprocess_card {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-
-.ourprocess_card img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    padding-bottom: 1%;
+.btn_process {
+    margin-top: 1.25rem;
 }
 
 /* Media Queries for Smaller Screens (e.g., Phones) */
@@ -64,12 +69,16 @@
     }
 }
 
-.the_cards {
-    border: 1px solid #EFEFEF;
-    border-radius: 6px;
-    padding: 1rem;
+/* Media Queries Tablets */
+@media screen and (min-width: 601px) {
+    .ourprocess_card {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
-.btn_process {
-    margin-top: 1.25rem;
+/* Media Queries Desktops */
+@media screen and (min-width: 1025px) {
+    .ourprocess_card {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }

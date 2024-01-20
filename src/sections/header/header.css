@@ -6,7 +6,7 @@ header {
     place-items: center;
     background: var(--color-white);
     transition: var(--transition);
-    background-image: url("../../assets/banner-background.svg");
+    background-image: url("../../assets/header/banner-background.svg");
     background-size: cover;
     background-position: center;
 }

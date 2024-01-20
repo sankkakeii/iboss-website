@@ -1,16 +1,16 @@
 import "./ourprocess.css";
 import Card from "../../components/Card";
-import Discover from "../../assets/Discover.svg"
-import Design from "../../assets/Design.svg"
-import Develop from "../../assets/Develop.svg"
-import Deploy from "../../assets/Deploy.svg"
+import Discover from "../../assets/our_process/Discover.svg"
+import Design from "../../assets/our_process/Design.svg"
+import Develop from "../../assets/our_process/Develop.svg"
+import Deploy from "../../assets/our_process/Deploy.svg"
 
 const Ourprocess = () => {
 
   return (
     <section id="ourprocess">
       <h2>Our Process</h2>
-      <h5>Simple, Seamless, Streamlined</h5>
+      <h4>Simple, Seamless, Streamlined</h4>
       <div className="container ourprocess_container">
         <div className="ourprocess_card">
           <div className="the_cards">
@@ -26,7 +26,7 @@ const Ourprocess = () => {
           </div>
           <div className="the_cards">
             <Card>
-              <img src={Design} alt="" className="ourprocess_card_img" />
+              <img src={Design} alt="" />
               <h6>Design</h6>
               <p>
                 Our design strategy flows from discovery through a user-focused
@@ -37,7 +37,7 @@ const Ourprocess = () => {
           </div>
           <div className="the_cards">
             <Card>
-              <img src={Develop} alt="" />
+              <img src={Develop} alt=""  />
               <h6>Develop</h6>
               <p>
                 Our team of developers consider such issues as protocols,

@@ -1,5 +1,5 @@
 import "./aboutheader.css";
-import aboutheader from '../../assets/aboutheader.svg'
+import aboutheader from '../../assets/about_header/aboutheader.svg'
 
 const AboutHeader = () => {
   return (

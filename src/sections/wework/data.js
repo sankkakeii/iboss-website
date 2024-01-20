@@ -1,6 +1,6 @@
-import image1 from '../../assets/solid_intellectual_process.svg'
-import image2 from '../../assets/global_partnership.svg'
-import image3 from '../../assets/world_class_team.svg'
+import image1 from '../../assets/wework/solid_intellectual_process.svg'
+import image2 from '../../assets/wework/global_partnership.svg'
+import image3 from '../../assets/wework/world_class_team.svg'
 
 const data = [
     {
