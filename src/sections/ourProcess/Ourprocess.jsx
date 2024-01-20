@@ -1,5 +1,5 @@
 import "./ourprocess.css";
-import Card from "../../components/Card";
+import Card from "../../components/Card/Card";
 import Discover from "../../assets/our_process/Discover.svg"
 import Design from "../../assets/our_process/Design.svg"
 import Develop from "../../assets/our_process/Develop.svg"

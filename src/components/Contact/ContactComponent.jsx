@@ -57,11 +57,15 @@ const ContactComponent = () => {
                         <form action="">
                             <div className="form_input">
                                 <label htmlFor="name">Name</label>
-                                <input type="text" name="name" id="name" />
+                                <input type="text" name="name" id="name" required/>
                             </div>
                             <div className="form_input">
                                 <label htmlFor="email">Email</label>
-                                <input type="email" name="email" id="email" />
+                                <input type="email" name="email" id="email" required/>
+                            </div>
+                            <div className="form_input">
+                                <label htmlFor="subject">Subject</label>
+                                <input type="subject" name="subject" id="subject" required/>
                             </div>
                             <div className="form_input">
                                 <label htmlFor="message">Message</label>

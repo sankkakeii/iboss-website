@@ -1,5 +1,5 @@
 import './wework.css'
-import Card from '../../components/Card'
+import Card from '../../components/Card/Card'
 import data from './data'
 
 const Wework = () => {
