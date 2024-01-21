@@ -50,6 +50,18 @@ h4 {
   margin-left: 0;
 }
 
+.socials {
+  display: flex;
+  justify-content: center;
+  align-self: self-start;
+  gap: 10px;
+}
+
+
+.footer_social {
+  width: 2rem;
+}
+
 .get_in_touch span {
   color: #87CEEB;
   padding: 0.2rem;

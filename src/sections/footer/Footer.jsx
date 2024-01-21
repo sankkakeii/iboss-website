@@ -50,10 +50,15 @@ const Footer = () => {
             Church Ogudu Lagos
           </span>
         </p>
+      </div>
+
+      <div className="social_media">
         <h5>Follow us on:</h5>
-        <img src={twitter} alt="" />
-        <img src={linkedin} alt="" />
-        <img src={instagram} alt="" />
+        <div className="socials">
+          <img className="footer_social" src={twitter} alt="" />
+          <img className="footer_social" src={linkedin} alt="" />
+          <img className="footer_social" src={instagram} alt="" />
+        </div>
       </div>
     </footer>
   );
