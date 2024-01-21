@@ -1,5 +1,5 @@
 import "./ourvision.css";
-import ourVision from '../../assets/ourvision.svg'
+import ourVision from '../../assets/our_vision/ourvision.svg'
 
 const Ourvision = () => {
   return (

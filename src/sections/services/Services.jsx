@@ -1,6 +1,6 @@
 import "./services.css";
 import data from "./data";
-import Card from "../../components/Card";
+import Card from "../../components/Card/Card";
 
 /**
  * Services component represents a section of a webpage showcasing various services.

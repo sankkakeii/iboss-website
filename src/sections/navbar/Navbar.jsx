@@ -1,5 +1,5 @@
 import './navbar.css'
-import Logo from '../../assets/logo.svg'
+import Logo from '../../assets/navbar/logo.svg'
 import data from './data'
 import { CiMail } from "react-icons/ci";
 

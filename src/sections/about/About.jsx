@@ -1,5 +1,5 @@
 import "./about.css";
-import Aboutimage from "../../assets/about_image.svg";
+import Aboutimage from "../../assets/about/about_image.svg";
 
 /**
  * About component represents a section of a webpage providing information about the creator.
