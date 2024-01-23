@@ -1,5 +1,6 @@
 #ourWorks {
   background: #F8F8F8;
+  padding-top: 100px;
 }
 
 .ourworks_container {
@@ -14,6 +15,7 @@
 
 #ourWorks h2 {
   font-size: 2.7rem;
+  padding-bottom: 20px;
 }
 
 #ourWorks p {

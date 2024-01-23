@@ -5,12 +5,14 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 20px 0; /* Added padding for better spacing */
+    padding: 20px 0;
+    padding-top: 60px;
 }
 
 #our_contact h2 {
     color: white;
-    margin-bottom: 20px;
+    padding-bottom: 60px;
+    
 }
 
 .contact_info_container {

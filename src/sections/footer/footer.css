@@ -1,12 +1,5 @@
 #footer {
   background: #FFFFFF;
-  padding: 20px 0; /* Added padding for better spacing */
-}
-
-.footer_image {
-  width: 100%;
-  max-width: 400px; /* Adjust the maximum width for responsiveness */
-  margin: 0 auto; /* Center the image */
 }
 
 .footer_container {
