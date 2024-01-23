@@ -1,11 +1,12 @@
 import "./navbar.css";
 import Logo from "../../assets/navbar/logo.svg";
 import { CiMail } from "react-icons/ci";
-import { NavLink ,useNavigate} from "react-router-dom";
+import { NavLink ,useNavigate, useLocation} from "react-router-dom";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
   const navigate = useNavigate();
+  const location = useLocation();
 
   const scrollToSection = (sectionId) => {
     scroll.scrollTo(sectionId, {
@@ -15,9 +16,16 @@ const Navbar = () => {
   };
 
   const handleScrollToSection = (sectionId) => {
-    // Redirect to the home page and scroll to the section
-    navigate("/");
-    scrollToSection('#' + sectionId);
+    // If on the home page, scroll to the section
+    if (location.pathname === '/') {
+      scrollToSection(sectionId);
+    } else {
+      // If on a different page, navigate to the home page and scroll to the section
+      navigate('/');
+      setTimeout(() => {
+        scrollToSection(sectionId);
+      }, 0);
+    }
   };
 
   return (
