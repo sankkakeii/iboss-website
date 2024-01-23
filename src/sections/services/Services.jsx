@@ -1,12 +1,7 @@
 import "./services.css";
 import data from "./data";
 import Card from "../../components/Card/Card";
-
-/**
- * Services component represents a section of a webpage showcasing various services.
- * It includes a title, introductory paragraph, and a set of cards displaying service details.
- * @returns {JSX.Element} The JSX representation of the Services component.
- */
+import React from "react";
 
 const Services = () => {
   return (

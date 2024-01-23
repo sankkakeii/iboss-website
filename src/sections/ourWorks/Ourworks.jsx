@@ -1,6 +1,7 @@
 import "./ourworks.css";
 import TangoWorks from "../../assets/our_works/tango-works.svg";
 import QuikQikWorks from "../../assets/our_works/qikqik-works.svg";
+import React from "react";
 
 const Ourworks = () => {
   return (
