@@ -4,7 +4,7 @@ import QuikQikWorks from "../../assets/our_works/qikqik-works.svg";
 
 const Ourworks = () => {
   return (
-    <section id="ourWorks">
+    <section id="our_works">
       <h2>Our Works</h2>
       <div className="container ourworks_container">
         <div className="top">

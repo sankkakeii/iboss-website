@@ -1,33 +1,17 @@
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/Pages/Home";
+import About from "./components/Pages/About";
 import Navbar from "./sections/navbar/Navbar";
-import Header from "./sections/header/Header";
-import About from "./sections/about/About";
-import Services from "./sections/services/Services";
-import OurWorks from "./sections/ourworks/Ourworks";
-import Ourprocess from "./sections/ourprocess/Ourprocess";
-import Faqs from "./sections/faqs/Faqs";
-import Contact from "./sections/contact/Contact";
-import Footer from './sections/footer/Footer';
-import AboutHeader from './sections/aboutheader/AboutHeader';
-import Ourvision from "./sections/ourvision/Ourvision";
-import Partners from "./components/Partners/Partners";
-import Wework from "./sections/wework/Wework";
-
+import Footer from "./sections/footer/Footer";
 
 const App = () => {
   return (
     <main>
       <Navbar />
-      <Header />
-      <About />
-      <Services />
-      <OurWorks />
-      <Partners />
-      <Ourprocess />
-      {/* <Faqs /> */}
-      <Contact />
-      <Wework/>
-      {/* <AboutHeader/>
-      <Ourvision /> */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
       <Footer />
     </main>
   );

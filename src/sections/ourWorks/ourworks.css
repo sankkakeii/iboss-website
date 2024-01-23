@@ -1,4 +1,4 @@
-#ourWorks {
+#our_works {
   background: #F8F8F8;
   padding-top: 100px;
 }
@@ -13,12 +13,12 @@
   padding: 1rem;
 }
 
-#ourWorks h2 {
+#our_works h2 {
   font-size: 2.7rem;
   padding-bottom: 20px;
 }
 
-#ourWorks p {
+#our_works p {
   font-size: 1.7rem;
   padding-bottom: 2%;
 }
@@ -57,11 +57,11 @@
 
 /* Media Queries Phones */
 @media screen and (max-width: 600px) {
-  #ourWorks h2 {
+  #our_works h2 {
       font-size: 2rem;
   }
 
-  #ourWorks p {
+  #our_works p {
       font-size: 1.4rem;
   }
 }
