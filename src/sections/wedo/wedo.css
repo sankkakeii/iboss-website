@@ -1,0 +1,30 @@
+#wedo{
+    background: #F8F8F8;
+}
+
+.wedo_container{
+    grid-template-columns: 35% 53%;/* Setting up a grid with two columns */
+    gap: 12%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+
+.wedo_left{
+    width: 100%;
+}
+
+.wedo_card{
+    border-radius: 10px;
+    background: #FFFFFF;
+    padding: 20px;
+    font-size: medium;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-bottom: 30px;
+}
+
+.wedo_span{
+
+}
