@@ -1,28 +1,28 @@
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/Pages/Home";
+import About from "./components/Pages/About";
 import Navbar from "./sections/navbar/Navbar";
-import Header from "./sections/header/Header";
-import About from "./sections/about/About";
-import Services from "./sections/services/Services";
-import Portfolio from "./sections/portfolio/Portfolio";
-import Testimonials from "./sections/testimonials/Testimonials";
-import Faqs from "./sections/faqs/Faqs";
-import Contact from "./sections/contact/Contact";
-import Footer from './sections/footer/Footer';
-import FloatingNav from './sections/floating-nav/FloatingNav';
+import Footer from "./sections/footer/Footer";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
 
 
 const App = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() =>{
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <main>
       <Navbar />
-      <Header />
-      <About />
-      <Services />
-      <Portfolio />
-      <Testimonials />
-      <Faqs />
-      <Contact />
-      <Footer/>
-      <FloatingNav/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+      <Footer />
     </main>
   );
 };

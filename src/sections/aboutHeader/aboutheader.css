@@ -1,0 +1,12 @@
+#about_header {
+    background: #FFFFFF;
+}
+
+.about_header_content h1 {
+    text-align: center;
+}
+
+.about_header_content p {
+    text-align: center;
+    padding: 20px;
+}

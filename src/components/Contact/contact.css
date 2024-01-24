@@ -1,0 +1,97 @@
+#our_contact {
+    background-color: #005B96;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#our_contact h2 {
+    color: white;
+    padding-bottom: 40px;
+    
+}
+
+.contact_info_container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.contact_information,
+.contact_form {
+    background-color: white;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    width: 100%; /* Full width on smaller screens */
+}
+
+.contact_info_item {
+    display: flex;
+    flex-direction: column; /* Adjusted layout for better stacking on smaller screens */
+}
+
+.contact_info_item h6 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: var(--color-primary);
+}
+
+.contact_info_item p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.icon_container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.contact_info_item_img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.form_input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form_input input,
+.form_input textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(140, 140, 155);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+/* Media Queries for Tablets */
+@media screen and (min-width: 601px) {
+    .contact_information,
+    .contact_form {
+        width: 40%; /* Adjusted width for better side-by-side layout on tablets */
+    }
+}
+
+/* Media Queries for Phones */
+@media screen and (max-width: 600px) {
+    .contact_info_container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+
+    .contact_information,
+    .contact_form {
+        width: 100%; /* Full width for better stacking on smaller screens */
+    }
+}
