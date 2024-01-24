@@ -3,8 +3,18 @@ import Home from "./components/Pages/Home";
 import About from "./components/Pages/About";
 import Navbar from "./sections/navbar/Navbar";
 import Footer from "./sections/footer/Footer";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
+
 
 const App = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() =>{
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <main>
       <Navbar />
