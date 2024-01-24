@@ -2,6 +2,8 @@ import "./navbar.css";
 import Logo from "../../assets/navbar/logo.svg";
 import { CiMail } from "react-icons/ci";
 import { NavLink } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
+
 
 const Navbar = () => {
   return (
@@ -21,8 +23,14 @@ const Navbar = () => {
           <li>
             <NavLink to="/about">About</NavLink>
           </li>
-          <a href="#our_works">Our Works</a>
-          <a href="#services">Services</a>
+          <li>
+            <HashLink smooth to="/#our_works">Our Works</HashLink>
+          </li>
+          <li>
+            <HashLink smooth to="/#services">Services</HashLink>
+          </li>
+          {/* <a href="#our_works">Our Works</a>
+          <a href="#services">Services</a> */}
         </ul>
         {/* Nav icon button */}
         <a href="#contact" id="nav_btn" className="btn primary">
