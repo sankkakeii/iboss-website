@@ -1,5 +1,10 @@
 #wedo{
     background: #F8F8F8;
+    padding-top: 100px;
+}
+
+#wedo h2{
+    padding-bottom: 40px;
 }
 
 .wedo_container{
@@ -13,18 +18,25 @@
 }
 
 .wedo_left{
-    width: 100%;
+    width: 80%;
 }
 
 .wedo_card{
     border-radius: 10px;
     background: #FFFFFF;
     padding: 20px;
-    font-size: medium;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     margin-bottom: 30px;
+    border-left: 5px solid #005B96;
 }
 
-.wedo_span{
-
+.wedo_card p{
+    font-size: small;
 }
+
+.wedo_right p::before {
+    content: '';
+    display: block;
+    width: 5px;
+    height: 10px;
+  }

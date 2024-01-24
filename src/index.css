@@ -6,6 +6,7 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    
 }
 
 
@@ -160,6 +161,12 @@ img {
 }
 
 .btn.primary:hover {
+    background: transparent;
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+}
+
+.btn.active {
     background: transparent;
     border-color: var(--color-primary);
     color: var(--color-primary);

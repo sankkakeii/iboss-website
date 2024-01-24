@@ -5,7 +5,7 @@ import Image from "../../assets/wedo/wedo.svg";
 
 const Wedo = () => {
   return (
-    <section>
+    <section id="wedo">
       <h2>What we do</h2>
       <div className="container wedo_container">
         <div className="wedo_left">
@@ -13,7 +13,6 @@ const Wedo = () => {
         </div>
         <div className="wedo_right">
           <Card className="wedo_card">
-          <span className="wedo_span"></span>
             <p>
               Assist businesses to recognize that mobility is beyond devices
             </p>
