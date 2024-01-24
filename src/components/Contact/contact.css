@@ -8,7 +8,19 @@
     padding: 20px 0;
     padding-top: 60px;
     padding-bottom: 60px;
+    
 }
+
+button{
+    font-family: 'Mona-Sans Regular';
+}
+
+@font-face {
+    font-family: 'Mona-Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mona-Sans Regular'), url('../../assets/font/Mona-Sans.woff') format('woff');
+    }
 
 #our_contact h2 {
     color: white;
