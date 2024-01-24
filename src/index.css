@@ -35,12 +35,20 @@
     --transition: all 500ms ease;
 }
 
+
+@font-face {
+    font-family: 'Mona-Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mona-Sans Regular'), url('../../iboss-website/src/assets/font/Mona-Sans.woff') format('woff');
+    }
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mona-Sans Regular';
     line-height: 1.6;
     font-size: 0.9rem;
 }
