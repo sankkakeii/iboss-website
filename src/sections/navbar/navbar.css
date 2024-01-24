@@ -20,6 +20,10 @@ nav {
     -webkit-backdrop-filter: blur(10px);
 }
 
+.active{
+    color: var(--color-primary);
+}
+
 /* Styling for the container within the navigation bar */
 .nav_container {
     display: flex;
