@@ -1,6 +1,7 @@
 import Header from './../../sections/header/Header';
 import About from './../../sections/about/About';
 import Services from './../../sections/services/Services';
+import Paradise from './../../sections/paradise/Paradise';
 import Ourworks from './../../sections/ourworks/Ourworks';
 import Partners from './../Partners/Partners';
 import Ourprocess from './../../sections/ourprocess/Ourprocess';
@@ -14,6 +15,7 @@ const Home = () => {
         <Header />
         <About />
         <Services />
+        <Paradise />
         <Ourworks />
         <Partners />
         <Ourprocess />
