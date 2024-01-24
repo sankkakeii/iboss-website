@@ -1,18 +1,21 @@
 #paradise {
-    padding-bottom: 60px;
+    padding-bottom: 5rem;
+    /* Use relative units for padding */
     display: flex;
     flex-direction: column;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
     background: #FFFFFF;
+    text-align: center;
 }
 
 #paradise h6 {
     font-weight: 500;
-    padding-bottom: 10px;
+    padding-bottom: 1rem;
+    /* Use rem for smaller padding */
 }
 
-#paradise h4{
+#paradise h4 {
     font-weight: 400;
 }
 
@@ -20,10 +23,10 @@
     display: flex;
     width: 100%;
     flex-direction: column;
-    justify-self: center;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     padding: 1rem;
+    text-align: center;
 }
 
 .buttons_container {
@@ -35,67 +38,68 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    /* Adapt font size for smaller screens */
     color: rgb(161, 167, 173);
     font-weight: 500;
-    padding: 40px;
+    padding: 2rem;
+    /* Reduce padding for better space utilization */
     overflow: hidden;
 }
 
-.skills_list {
-    display: flex;
-    gap: 100px;
-    padding: 5px;
-    width: 100%;
-}
-
+.skills_list,
 .role_list {
     display: flex;
-    gap: 10px;
-    padding: 10px;
+    flex-wrap: wrap;
+    /* Allow items to wrap on smaller screens */
+    gap: 1rem;
+    /* Use smaller gap for tighter space */
+    padding: 0.5rem;
+    /* Reduce padding for compactness */
     width: 100%;
 }
 
-
-.skills_list_1 {
-    display: flex;
-    gap: 20px;
-    padding: 10px;
-    width: 100%;
-}
-.skills_list_2 {
-    display: flex;
-    gap: 20px;
-    padding: 10px;
-    width: 100%;
-}
-
-.roles_list_1 {
-    display: flex;
-    gap: 20px;
-    padding: 10px;
-    width: 100%;
-}
-
+.skills_list_1,
+.skills_list_2,
+.roles_list_1,
 .roles_list_2 {
     display: flex;
-    gap: 20px;
-    padding: 10px;
-    width: 100%;
+    flex-wrap: wrap;
+    /* Allow items to wrap on smaller screens */
+    gap: 0.5rem;
+    padding: 0.25rem;
+    width: 50%;
+    /* Set half width for each list on smaller screens */
 }
 
+/* Media Queries for Responsive Adjustments: */
 
-/* Media Queries for Smaller Screens (e.g., Phones) */
 @media screen and (max-width: 600px) {
+    .paradise_container {
+        padding: 0.5rem;
+        font-size: 1rem;
+        text-align: center;
+    }
 
+    .skill_container {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .skills_list_1,
+    .skills_list_2,
+    .roles_list_1,
+    .roles_list_2 {
+        width: 100%;
+        font-size: 1.2rem;
+        /* Make lists full width on mobile */
+    }
 }
 
-/* Media Queries Tablets */
-@media screen and (min-width: 601px) {
-
+@media screen and (min-width: 768px) {
+    /* Define optional changes for tablets (optional) */
 }
 
-/* Media Queries Desktops */
-@media screen and (min-width: 1025px) {
-
+@media screen and (min-width: 1024px) {
+    /* Define optional changes for desktops (optional) */
 }

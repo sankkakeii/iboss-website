@@ -6,7 +6,7 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    
+
 }
 
 
@@ -16,7 +16,7 @@
     --dark-lightness: 44%;
     --light-lightness: 94%;
     --white-lightness: 100%;
-    --color-primary: hsl(203.6,100%,29.41%);
+    --color-primary: hsl(203.6, 100%, 29.41%);
     --color-white: hsl(0, 5%, var(--white-lightness));
     --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
     --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
@@ -64,14 +64,13 @@ section:nth-child(even) {
     background: var(--color-white);
 }
 
-section > h2 {
+section>h2 {
     text-align: center;
 }
 
-section > p {
+section>p {
     text-align: center;
     margin: 0.5rem auto 4rem;
-    width: 40%;
 }
 
 
@@ -82,7 +81,12 @@ a {
 }
 
 /* GENERAL HEADING STYLES */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     line-height: 1.1;
     color: var(--color-black);
 }
@@ -105,7 +109,7 @@ h3 {
 
 h4 {
     font-size: 1.1rem;
-    
+
 }
 
 h5 {
@@ -184,7 +188,7 @@ img {
     body {
         font-size: 1rem;
     }
-    
+
     .container {
         width: var(--container-width-md);
     }
@@ -193,7 +197,7 @@ img {
         padding: 8rem 0;
     }
 
-    section > p {
+    section>p {
         width: 72%;
         margin-bottom: 3rem;
     }
@@ -229,7 +233,7 @@ img {
         padding: 0.6rem 1.5rem;
     }
 
-    section > p {
+    section>p {
         width: var(--container-width-md);
     }
 }

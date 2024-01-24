@@ -1,45 +1,6 @@
-// import "./paradise.css";
-// import "./scroll.css";
-
-// const SkillBased = () => {
-
-//     return (
-//             <div className="skill_container">
-
-//                 <div className="skill_list">
-//                     <ul className="skills_list_1">
-//                         <li>Python</li>
-//                         <li>React.Js</li>
-//                         <li>Node.Js</li>
-//                         <li>Ruby on Rails</li>
-//                     </ul>
-//                 </div>
-
-//                 <div className="skills_list">
-//                     <ul className="skills_list_2">
-//                         <li>Dynamic 365</li>
-//                         <li>Flutter</li>
-//                         <li>Angular</li>
-//                         <li>Swift</li>
-//                     </ul>
-//                 </div>
-//             </div>
-//     );
-// };
-
-// export default SkillBased;
-
-
-
-
-
-
-
-
-
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import "./paradise.css";
+// import "./paradise.css";
 import "./scroll.css";
 
 const skillsList1 = ["Python", "React.Js", "Node.Js", "Ruby on Rails"];
