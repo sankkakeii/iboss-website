@@ -39,12 +39,13 @@
     color: rgb(161, 167, 173);
     font-weight: 500;
     padding: 40px;
+    overflow: hidden;
 }
 
 .skills_list {
     display: flex;
     gap: 100px;
-    padding: 10px;
+    padding: 5px;
     width: 100%;
 }
 
