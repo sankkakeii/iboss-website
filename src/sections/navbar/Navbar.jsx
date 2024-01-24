@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav>
       {/* Container for the navigation elements */}
-      <div className="container nav_container">
+      <div className=" nav_container">
         {/* Logo section */}
         <a href="/" className="nav_logo">
           <img src={Logo} alt="Logo" />
