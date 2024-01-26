@@ -15,15 +15,27 @@ const Navbar = () => {
     window.scrollTo(0, 0);
   }, [pathname]);
 
-// Function to check if a link should be active based on the current hash
+  // Function to check if a link should be active based on the current hash
   const isActive = (hashValue) => {
-    return hash === hashValue ;
-    // || (pathname === "/" && hashValue === "#top")
+    return hash === hashValue;
+  };
+
+  
+
+  const toggleMenu = () => {
+    const nav = document.querySelector('.nav_menu');
+    nav.classList.toggle('show');
   };
   return (
     <nav>
       {/* Container for the navigation elements */}
       <div className=" nav_container">
+        {/* Hamburger menu */}
+        {/* <button className="hamburger" onClick={toggleMenu}>
+          <div></div>
+          <div></div>
+          <div></div>
+        </button> */}
         {/* Logo section - navigates to top of home page */}
         <HashLink smooth to="/#top" className="nav_logo">
           <img src={Logo} alt="Logo" />
@@ -67,7 +79,7 @@ const Navbar = () => {
           <a href="#services">Services</a> */}
         </ul>
         {/* Nav icon button */}
-        <a href="#contact" id="nav_btn" className="btn primary">
+        <a href="#our_contact" id="nav_btn" className="btn primary">
           Get in Touch
           <CiMail style={{ fontSize: "1.4em" }} />
         </a>
