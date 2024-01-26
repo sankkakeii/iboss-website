@@ -1,3 +1,4 @@
+
 .skill_container {
     position: relative;
     overflow: hidden;
@@ -9,6 +10,44 @@
 }
 
 .skills_list li {
-    padding-right: 20px;
+    padding-right: 10px;
     list-style: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.skills_list li.visible {
+    opacity: 1;
+}
+
+.skillsList1 li {
+    animation: scrollRightLeft1 8s linear infinite;
+    /* Adjust the duration as needed */
+}
+
+.skillsList2 li {
+    animation: fadeInOut 4s linear infinite;
+    /* Adjust the duration as needed */
+}
+
+@keyframes scrollRightLeft1 {
+    0%, 100% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
 }
