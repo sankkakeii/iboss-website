@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "./components/Pages/Home";
-import About from "./components/Pages/About";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
 import Navbar from "./sections/navbar/Navbar";
 import Footer from "./sections/footer/Footer";
 import { useEffect } from "react";

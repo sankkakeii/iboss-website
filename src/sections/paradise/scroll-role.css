@@ -1,13 +1,16 @@
-
 .skill_container {
     position: relative;
     overflow: hidden;
 }
 
+.role_list1,
+.role_list2 {
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
 .skills_list {
     display: flex;
-    /* white-space: nowrap; */
-    width: 100%; /* Set a suitable width for your container */
+    width: 100%;
     overflow: hidden;
 }
 
@@ -22,12 +25,12 @@
     opacity: 1;
 }
 
-.skillsList1 li {
+.role_list1 li {
     animation: scrollRightLeft1 8s linear infinite;
     /* Adjust the duration as needed */
 }
 
-.skillsList2 li {
+.role_list2 li {
     animation: fadeInOut 4s linear infinite;
     /* Adjust the duration as needed */
 }
